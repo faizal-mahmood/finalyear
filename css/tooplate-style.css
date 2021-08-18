@@ -1,0 +1,265 @@
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  color: #626262;
+  overflow-x: hidden;
+}
+
+textarea {
+  font-family: "Open Sans", sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.tm-footer-link {
+  color: #626262;
+}
+
+button {
+  border: none;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.tm-page-header {
+  color: #444444;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 45px;
+}
+
+.tm-nav-section {
+  position: absolute;
+  top: 158px;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #909090;
+  border-bottom: 1px solid #909090;
+  background-color: white;
+  z-index: 3000;
+}
+
+.tm-nav-section.sticky {
+  position: fixed;
+  top: 0;
+  border-top: none;
+  background: white;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding: 10px 35px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #313131;
+}
+
+#tmMainNav .nav-link.current,
+#tmMainNav .nav-link:hover {
+  color: #0662b9;
+  background: #eaeaea;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: white;
+}
+
+.navbar {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.tm-navbar-nav {
+  font-size: 1.3rem;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 930px;
+}
+
+
+.tm-features-section {
+  padding-top: 50px;
+  padding-bottom: 85px;
+  margin-top: 50px;
+}
+
+.tm-features-row {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.tm-feature-block {
+  max-width: 550px;
+  margin-bottom: 40px;
+}
+
+.tm-feature-header {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #5f5f5f;
+  margin-bottom: 55px;
+}
+
+.tm-feature-h {
+    text-align: center;
+  font-size: 1.8rem;
+}
+
+.tm-feature-icon {
+  margin-right: 30px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+
+
+
+.boxed {
+  border: 3px solid green ;
+  border-radius: 25px;
+}
+
+#circle {
+    margin-left: 37%;
+    width: 300px;
+    height: 300px;
+    line-height: 0;
+    position: relative;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #a7cfdf 0%,#23538a 100%);
+    box-shadow: inset -8px -7px 4px 0px rgba(0,0,0,0.3);
+}
+#circle::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.circle-txt {
+  /* (E1) CENTER TEXT IN CIRCLE */
+  position: absolute;
+  bottom: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+.grad {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+.grad2 {
+  background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+
+
+.tm-footer {
+  margin-bottom: 40px;
+}
+
+.tm-footer-row {
+  align-items: center;
+}
+
+.scroll {
+  background: rgba(222, 226, 230, 0.39);
+  padding: 18px 20px 10px;
+  text-align: center;
+  margin: 0 0 0 auto;
+  cursor: pointer;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  width: 65px;
+  height: 60px;
+}
+
+.scroll:hover {
+  background: rgba(178, 178, 178, 1);
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.scroll:hover .fa {
+  padding-top: -10px;
+}
+
+.scroll .fa {
+  font-size: 30px;
+  margin-top: -5px;
+  margin-left: 1px;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.tab-pane.fade {
+  transition: opacity 0s linear;
+}
+
+
+
+
